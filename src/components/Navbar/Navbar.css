@@ -1,0 +1,29 @@
+
+
+.navbar_container{
+    background-color:orange;
+    color:whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.navbar_left{
+    font-size:26px;
+    font-weight:700;
+    color:rgb(255, 0, 81);
+}
+.navbar_right{
+    display:flex;
+}
+.navbar_right>p{
+    margin-right:10px;
+    padding:8px 10px;
+    font-size: 12px;
+}
+.navbar_right>p:hover{
+    background-color:gray;
+    cursor: pointer;
+    border-radius:8px;
+
+}
